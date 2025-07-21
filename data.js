@@ -64,6 +64,16 @@ feats = [
         index: 18,
         description: "Program your drone to fly in a tight circle, smaller than the one the .circle() method executes.",
     },
+    {
+        name: "Game Show Host",
+        index: 21,
+        description: "Program your drone to present a number guessing game. It should think of a number between 1 and 100 then prompt the user to guess what number it’s thinking of. It should then hover in place, reacting to the user’s guesses with “gestures” -- for example rising to indicate they should guess higher, dropping to indicate they should guess lower, and flashing its lights different colors if they guess correctly.",
+    },
+    {
+        name: "Three-headed Dog",
+        index: 19,
+        description: "Three teams must work together for this challenge. In this advanced form of the Cerberus Trial, three teams must synchronize their drones so that they all react to a person passing by taking off, hovering for exactly 7 seconds, then landing.",
+    },
 ]
 
 dronePilots = {
@@ -72,14 +82,14 @@ dronePilots = {
             "Miles",
             "Adi"
         ],
-        feats: [9, 12, 7, 10, 14, 8, 11, 13]
+        feats: [9, 12, 7, 10, 14, 8, 11, 13, 19]
     },
     "Achoo" : {
         pilots: [
             "Ahmad",
             "Abdullah"
         ],
-        feats: [9, 12, 8, 10, 7, 13, 14, 18, 24, 21]
+        feats: [9, 12, 8, 10, 7, 13, 14, 18, 24, 21, 19]
     },
     "DAdrone" : {
         pilots: [
@@ -93,7 +103,7 @@ dronePilots = {
             "Sam",
             "Kiran"
         ],
-        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21]
+        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21, 19]
     },
     "Boeing" : {
         pilots: [

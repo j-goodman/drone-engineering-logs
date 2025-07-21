@@ -79,7 +79,7 @@ dronePilots = {
             "Ahmad",
             "Abdullah"
         ],
-        feats: [9, 12, 8, 10, 7, 13, 14, 18, 24]
+        feats: [9, 12, 8, 10, 7, 13, 14, 18, 24, 21]
     },
     "DAdrone" : {
         pilots: [
@@ -93,7 +93,7 @@ dronePilots = {
             "Sam",
             "Kiran"
         ],
-        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14]
+        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21]
     },
     "Boeing" : {
         pilots: [

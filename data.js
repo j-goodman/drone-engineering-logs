@@ -54,6 +54,11 @@ feats = [
         index: 16,
         description: "Two teams must work together for this trial. Program your drones to fly towards each other, each trailing a piece of yarn, and twist around each other in a rising double helix shape.",
     },
+    {
+        name: "Tar Pit Rescue",
+        index: 17,
+        description: "",
+    },
 ]
 
 dronePilots = {
@@ -62,7 +67,7 @@ dronePilots = {
             "Miles",
             "Adi"
         ],
-        feats: [9, 12, 7, 10, 14, 8, 11]
+        feats: [9, 12, 7, 10, 14, 8, 11, 13]
     },
     "Achoo" : {
         pilots: [
@@ -83,7 +88,7 @@ dronePilots = {
             "Sam",
             "Kiran"
         ],
-        feats: [9, 12, 10, 15, 7, 8, 13]
+        feats: [9, 12, 10, 15, 7, 8, 13, 17]
     },
     "Boeing" : {
         pilots: [

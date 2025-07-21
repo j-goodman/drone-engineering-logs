@@ -57,7 +57,12 @@ feats = [
     {
         name: "Tar Pit Rescue",
         index: 17,
-        description: "",
+        description: "You are the rescue team sent after a bus crashed into the La Brea Tar Pit. You must rescue at least one of the survivors from the pit using your drone and a paper grappling hook. The survivors are represented by paper balls in a wooden box. You can use yarn and a paper grapple.",
+    },
+    {
+        name: "Vulture",
+        index: 18,
+        description: "Program your drone to fly in a tight circle, smaller than the one the .circle() method executes.",
     },
 ]
 
@@ -74,21 +79,21 @@ dronePilots = {
             "Ahmad",
             "Abdullah"
         ],
-        feats: [9, 12, 8, 10, 7, 13, 14]
+        feats: [9, 12, 8, 10, 7, 13, 14, 18]
     },
     "DAdrone" : {
         pilots: [
             "Adam",
             "Tobi"
         ],
-        feats: [9, 10, 12, 7, 15]
+        feats: [9, 10, 12, 7, 15, 18]
     },
     "Cloudrider" : {
         pilots: [
             "Sam",
             "Kiran"
         ],
-        feats: [9, 12, 10, 15, 7, 8, 13, 17]
+        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18]
     },
     "Boeing" : {
         pilots: [

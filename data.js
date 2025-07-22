@@ -74,6 +74,11 @@ feats = [
         index: 19,
         description: "Three teams must work together for this challenge. In this advanced form of the Cerberus Trial, three teams must synchronize their drones so that they all react to a person passing by taking off, hovering for exactly 7 seconds, then landing.",
     },
+    {
+        name: "Chameleon",
+        index: 26,
+        description: "Use the green, red, purple, blue, and light blue landing pads that came with your drone. If your drone is placed on any of these color pads, it should change its LED’s color to match the landing pad. This trial does not involve flying the drone.",
+    },
 ]
 
 dronePilots = {
@@ -96,14 +101,14 @@ dronePilots = {
             "Adam",
             "Tobi"
         ],
-        feats: [9, 10, 12, 7, 15, 18, 24, 11]
+        feats: [9, 10, 12, 7, 15, 18, 24, 11, 26]
     },
     "Cloudrider" : {
         pilots: [
             "Sam",
             "Kiran"
         ],
-        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21, 19]
+        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21, 19, 26]
     },
     "Boeing" : {
         pilots: [

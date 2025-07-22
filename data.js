@@ -169,3 +169,11 @@ dronePilots = {
         feats: [6]
     }
 }
+
+jsonString = function () {
+    dataObject = {
+        feats: feats,
+        dronePilots: dronePilots
+    }
+    return JSON.stringify(dataObject)
+}

@@ -79,6 +79,11 @@ feats = [
         index: 26,
         description: "Use the green, red, purple, blue, and light blue landing pads that came with your drone. If your drone is placed on any of these color pads, it should change its LED’s color to match the landing pad. This trial does not involve flying the drone.",
     },
+    {
+        name: "Telegram",
+        index: 27,
+        description: "Program your drone to send a message in morse code. It should prompt the user for a message, then translate it into morse code and send it using its LED.",
+    },
 ]
 
 dronePilots = {
@@ -87,28 +92,28 @@ dronePilots = {
             "Miles",
             "Adi"
         ],
-        feats: [9, 12, 7, 10, 14, 8, 11, 13, 19]
+        feats: [9, 12, 7, 10, 14, 8, 11, 13, 19, 27]
     },
     "Achoo" : {
         pilots: [
             "Ahmad",
             "Abdullah"
         ],
-        feats: [9, 12, 8, 10, 7, 13, 14, 18, 24, 21, 19]
+        feats: [9, 12, 8, 10, 7, 13, 14, 18, 24, 21, 19, 26, 27]
     },
     "DAdrone" : {
         pilots: [
             "Adam",
             "Tobi"
         ],
-        feats: [9, 10, 12, 7, 15, 18, 24, 11, 26]
+        feats: [9, 10, 12, 7, 15, 18, 24, 11, 26, 27, 13]
     },
     "Cloudrider" : {
         pilots: [
             "Sam",
             "Kiran"
         ],
-        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21, 19, 26]
+        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21, 19, 26, 27, 23, 25]
     },
     "Boeing" : {
         pilots: [

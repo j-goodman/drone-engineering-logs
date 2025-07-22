@@ -65,14 +65,39 @@ feats = [
         description: "Program your drone to fly in a tight circle, smaller than the one the .circle() method executes.",
     },
     {
+        name: "Three-headed Dog",
+        index: 19,
+        description: "Three teams must work together for this challenge. In this advanced form of the Cerberus Trial, three teams must synchronize their drones so that they all react to a person passing by taking off, hovering for exactly 7 seconds, then landing.",
+    },
+    {
+        name: "Control Panel",
+        index: 20,
+        description: "Write a python program that prompts the user for input. The user should be able to type the following commands and control a drone: “launch” the drone takes off “land” the drone lands “forward” the drone flies forward 100 centimeters “left,” “right,” and “backwards” the drone flies 100 centimeters in the specified direction “turn left” the drone turns 90° left. “turn right” the drone turns 90° right. “flip” makes the drone do a flip.",
+    },
+    {
         name: "Game Show Host",
         index: 21,
         description: "Program your drone to present a number guessing game. It should think of a number between 1 and 100 then prompt the user to guess what number it’s thinking of. It should then hover in place, reacting to the user’s guesses with “gestures” -- for example rising to indicate they should guess higher, dropping to indicate they should guess lower, and flashing its lights different colors if they guess correctly.",
     },
     {
-        name: "Three-headed Dog",
-        index: 19,
-        description: "Three teams must work together for this challenge. In this advanced form of the Cerberus Trial, three teams must synchronize their drones so that they all react to a person passing by taking off, hovering for exactly 7 seconds, then landing.",
+        name: "The Ferryman and the King",
+        index: 22,
+        description: "Two teams must work together for this trial. The dwarf planet Pluto and its moon Charon are tidally locked to each other. Program two drones to emulate them, orbiting each other in a continuous circle while always facing towards each other.",
+    },
+    {
+        name: "Wheels of Fortune",
+        index: 23,
+        description: "Program your drone to play a word guessing game in the style of Hangman or Wheel of Fortune. The drone should react to a right answer with a green light and a wrong answer with a red light (or different colors of your choice) When the player guesses a wrong letter, the drone should drop closer to the ground. If this happens 7 times, the drone should land and tell the player they lose. It should also tell them how many wrong guesses they have left.",
+    },
+    {
+        name: "Tidal Lock",
+        index: 24,
+        description: "Program your drone to emulate a tidally locked body like the moon. The drone should orbit in a continuous circle, and should always be facing the center of that circle.",
+    },
+    {
+        name: "Fartraveler",
+        index: 25,
+        description: "Program your drone to fly from one side of the room to the other. If it encounters any obstacles, it should avoid them, then continue going in the direction it was originally going. When it reaches the far side of the room, it should land. Optionally, you can try to make it measure the length of the room.",
     },
     {
         name: "Chameleon",

@@ -109,6 +109,41 @@ feats = [
         index: 27,
         description: "Program your drone to send a message in morse code. It should prompt the user for a message, then translate it into morse code and send it using its LED.",
     },
+    {
+        name: "Troll Bridge",
+        index: 28,
+        description: "",
+    },
+    {
+        name: "International Weather Balloon",
+        index: 29,
+        description: "",
+    },
+    {
+        name: "Rooster",
+        index: 30,
+        description: "",
+    },
+    {
+        name: "Polygons",
+        index: 31,
+        description: "",
+    },
+    {
+        name: "WASD",
+        index: 32,
+        description: "",
+    },
+    {
+        name: "WASD Race",
+        index: 33,
+        description: "",
+    },
+    {
+        name: "Copycat",
+        index: 34,
+        description: "",
+    },
 ]
 
 dronePilots = {
@@ -117,28 +152,28 @@ dronePilots = {
             "Miles",
             "Adi"
         ],
-        feats: [9, 12, 7, 10, 14, 8, 11, 13, 19, 27]
+        feats: [9, 12, 7, 10, 14, 8, 11, 13, 19, 27, 2, 30]
     },
     "Achoo" : {
         pilots: [
             "Ahmad",
             "Abdullah"
         ],
-        feats: [9, 12, 8, 10, 7, 13, 14, 18, 24, 21, 19, 26, 27]
+        feats: [9, 12, 8, 10, 7, 13, 14, 18, 24, 21, 19, 26, 27, 29, 30]
     },
     "DAdrone" : {
         pilots: [
             "Adam",
             "Tobi"
         ],
-        feats: [9, 10, 12, 7, 15, 18, 24, 11, 26, 27, 13, 20]
+        feats: [9, 10, 12, 7, 15, 18, 24, 11, 26, 27, 13, 20, 29, 30]
     },
     "Cloudrider" : {
         pilots: [
             "Sam",
             "Kiran"
         ],
-        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21, 19, 26, 27, 23, 25]
+        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21, 19, 26, 27, 23, 25, 29, 30]
     },
     "Boeing" : {
         pilots: [

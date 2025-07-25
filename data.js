@@ -135,42 +135,54 @@ feats = [
         name: "Bridge Troll",
         index: 28,
         rank: "ruby",
-        description: "",
+        description: "Program your drone to cross a chasm only after the user correctly answers its riddle. The riddle should be chosen at random, either from an external API, or from a .txt file containing at least three riddles.",
     },
     {
         name: "International Weather Balloon",
         index: 29,
         rank: "emerald",
-        description: "",
+        description: "The drone’s thermometer measures the internal temperature of the drone. Program your drone to print its internal temperature in both Fahrenheit and Celsius. Compare the drone’s temperature when it’s sitting still vs. when its flying. Which is hotter?",
     },
     {
         name: "Rooster",
         index: 30,
         rank: "amethyst",
-        description: "",
+        description: "Use the datetime library. Program your drone to work as an alarm clock. The user should be able to input a time. When that time comes, the drone should make noise to wake you up.",
     },
     {
         name: "Polygons",
         index: 31,
-        rank: "gold",
-        description: "",
+        rank: "amethyst",
+        description: "Take a user input of a number higher than 2. Program your drone to fly in the path of a regular polygon with that number of sides. For example, 3 should make the drone fly in a triangle. 4 should make it fly in a square. If the user puts in an invalid input, tell them that and allow them to try again.",
     },
     {
         name: "WASD",
         index: 32,
         rank: "pearl",
-        description: "",
+        description: "Use the keyboard library. Program your drone so that you can control it with the W, A, S, and D keys on your keyboard. It’s up to you how the controls work. You should also include some method of changing the drone’s altitude.",
     },
     {
         name: "WASD Race",
         index: 33,
         rank: "gold",
-        description: "",
+        description: "After solving the WASD drone trial, create a program that allows a user to fly the drone for 60 seconds. After 50 seconds, the drone should beep and flash red with increasing speed to let the user know their time is almost up. After 60 seconds, the drone should land.",
     },
     {
         name: "Copycat",
         index: 34,
         rank: "onyx",
+        description: "After solving the WASD drone trial, create a program that allows a user to move the drone freely, then land. After they land, the drone should be able to take off again and automatically repeat whatever movements they just made.",
+    },
+    {
+        name: "Flight Zone",
+        index: 35,
+        rank: "pearl",
+        description: "After solving the WASD drone trial, write a program that allows the user to control the drone, but only within a limited zone of about 1 meter by 2 meters, or a little bigger than one of these tables. If the user tries to fly the drone out of the flight zone, it should automatically turn around and return to the zone.",
+    },
+    {
+        name: "Reinvent the Wheel",
+        index: 36,
+        rank: "gold",
         description: "",
     },
 ]
@@ -183,7 +195,7 @@ dronePilots = {
             "Miles",
             "Adi"
         ],
-        feats: [9, 12, 7, 10, 14, 8, 11, 13, 19, 27, 2, 30]
+        feats: [9, 12, 7, 10, 14, 8, 11, 13, 19, 27, 2, 30, 31, 32]
     },
     "Achoo" : {
         pilots: [
@@ -204,7 +216,7 @@ dronePilots = {
             "Sam",
             "Kiran"
         ],
-        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21, 19, 26, 27, 23, 25, 29, 30, 31]
+        feats: [9, 12, 10, 15, 7, 8, 13, 17, 18, 11, 20, 14, 21, 19, 26, 27, 23, 25, 29, 30, 31, 36]
     },
     "Boeing" : {
         pilots: [
